@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet" >
+    
+</head>
+<body>
+
+
+    <div class="container" >
+        <div class="sidebar">
+
+            <img class="profile-picture" src="https://scontent.fntr8-1.fna.fbcdn.net/v/t1.6435-9/82404551_1261520480699449_2141136377826246656_n.jpg?_nc_cat=107&ccb=1-5&_nc_sid=09cbfe&_nc_eui2=AeHLRakmwy1odM6sbz4FawkxaFszM-h_feJoWzMz6H994sJ7a1ySMzNj9oq37ddP6N8Hl1g4OyLRilwmqSc6b76T&_nc_ohc=3WJhb5wWtF4AX_brLNW&_nc_ht=scontent.fntr8-1.fna&oh=1c1d2a7592ff4fed90d509ef4f03f7af&oe=614E16F2">
+            <span class="profile-name">Fernando Maldonado</span>
+            <button class="exit-button">Salir</button>
+        </div>
+        <div class="chat-container">
+            <div class="header">
+                <span>Chat</span>
+            </div>
+            <div class="messages" id="messages">
+                <div class="message">
+                    <span>
+                        Holasssssssssssssssssssssssssssssssssssssssssss
+                    </span>
+                </div>
+                <div class="message own">Hola</div>
+            </div>
+            <div class="text-input">
+                <form onsubmit="messageSent(event)" class="message-form">
+                    <input id="message-input" placeholder="Escribe un mensaje">
+                    <button id="send-button">Enviar</button>
+                </form>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="js/chat.js" ></script>
+
+</body>
+</html>
